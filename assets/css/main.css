@@ -3233,7 +3233,7 @@ input, select, textarea {
 		display: flex;
 		justify-content: space-evenly;
 		flex-wrap: wrap;
-		max-width: 300px;
+		max-width: 380px;
 		margin: 0 auto;
 		min-width: fit-content;
 	}
