@@ -2645,9 +2645,9 @@ input, select, textarea {
 
 /* Footer */
 
-	#footer .icons {
+	/*#footer .icons {
 		margin: 1em 0 0 0;
-	}
+	}*/
 
 		#footer .icons a {
 			color: rgba(255, 255, 255, 0.4);
@@ -3090,9 +3090,9 @@ input, select, textarea {
 				width: 100%;
 			}
 
-				#footer .icons {
+				/*#footer .icons {
 					margin: 0 0 1em 0;
-				}
+				}*/
 
 				#footer .copyright {
 					margin: 0 0 1em 0;
@@ -3223,4 +3223,22 @@ input, select, textarea {
 	.buttons-container{
 		display: flex;
 		justify-content: space-evenly;
+	}
+	.image.fit.thumb img{
+		height: 200px;
+		object-fit: cover;
+	}
+	.icons {
+		height: 100px;
+		display: flex;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+		max-width: 300px;
+		margin: 0 auto;
+		min-width: fit-content;
+	}
+	@media screen and (min-width: 980px) {
+		.icons {
+			margin: 0 0 0 auto;
+		}
 	}
